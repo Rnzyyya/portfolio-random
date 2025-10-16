@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Yuki The Bunny</title>
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    <meta name="description" content="Browse Yuki The Bunny's design gallery showcasing web development projects and design inspirations">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header style="color: white; padding: 0.5rem 0; text-align: center; position: fixed; width: 100%; top: 0; z-index: 1000; opacity: 1; backdrop-filter: blur(10px); box-shadow: 0 4px 20px rgba(0,0,0,0.06); background: none !important;">
+        <h1 style="color: white; font-size: 2.3rem; margin-bottom: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">Gallery</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 0.5rem 0; position: fixed; width: 100%; top: 70px; z-index: 1001; opacity: 0.9; backdrop-filter: blur(10px); box-shadow: 0 2px 15px rgba(0,0,0,0.1);">
+        <ul style="list-style-type: none; display: flex; justify-content: center; flex-wrap: wrap; margin: 0; padding: 0;">
+            <li style="margin: 0 1rem;"><a href="../index.html" style="color: white; text-decoration: none; font-weight: bold; padding: 0.5rem 1rem; border-radius: 8px; transition: all 0.3s ease; text-shadow: 0 1px 2px rgba(0,0,0,0.3);" onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='transparent'; this.style.transform='translateY(0)'">Home</a></li>
+            <li style="margin: 0 1rem;"><a href="about.html" style="color: white; text-decoration: none; font-weight: bold; padding: 0.5rem 1rem; border-radius: 8px; transition: all 0.3s ease; text-shadow: 0 1px 2px rgba(0,0,0,0.3);" onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='transparent'; this.style.transform='translateY(0)'">About</a></li>
+            <li style="margin: 0 1rem;"><a href="projects.html" style="color: white; text-decoration: none; font-weight: bold; padding: 0.5rem 1rem; border-radius: 8px; transition: all 0.3s ease; text-shadow: 0 1px 2px rgba(0,0,0,0.3);" onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='transparent'; this.style.transform='translateY(0)'">Projects</a></li>
+            <li style="margin: 0 1rem;"><a href="gallery.html" style="color: white; text-decoration: none; font-weight: bold; padding: 0.5rem 1rem; border-radius: 8px; transition: all 0.3s ease; text-shadow: 0 1px 2px rgba(0,0,0,0.3);" onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='transparent'; this.style.transform='translateY(0)'">Gallery</a></li>
+            <li style="margin: 0 1rem;"><a href="contact.html" style="color: white; text-decoration: none; font-weight: bold; padding: 0.5rem 1rem; border-radius: 8px; transition: all 0.3s ease; text-shadow: 0 1px 2px rgba(0,0,0,0.3);" onmouseover="this.style.background='rgba(255,255,255,0.2)'; this.style.transform='translateY(-2px)'" onmouseout="this.style.background='transparent'; this.style.transform='translateY(0)'">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Header -->
+    <div class="page-header" style="margin-top:6.5rem;">
+        <p>A collection of screenshots from my projects and design inspirations</p>
+    </div>
+
+    <!-- Main Content -->
+    <main style="max-width: 1200px; margin: 8rem auto 2rem; padding: 0 1rem;">
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Project Screenshots</h2>
+            <p>Here are some visual highlights from my web development journey:</p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <figure>
+                        <img src="../images/e-commerce.png" 
+                             alt="E-commerce website design mockup">
+                        <figcaption>E-commerce website design concept featuring modern layout and user-friendly interface</figcaption>
+                    </figure>
+                </div>
+                
+                <div class="gallery-item">
+                    <figure>
+                        <img src="../images/mobile app interface.webp" 
+                             alt="Mobile app interface design">
+                        <figcaption>Mobile app interface design with clean typography and intuitive navigation</figcaption>
+                    </figure>
+                </div>
+                
+                <div class="gallery-item">
+                    <figure>
+                        <img src="../images/landing-page.png" 
+                             alt="Landing page design">
+                        <figcaption>Product landing page layout with compelling call-to-action elements</figcaption>
+                    </figure>
+                </div>
+
+                <div class="gallery-item">
+                    <figure>
+                        <img src="../images/dashboard.png" 
+                             alt="Dashboard interface design">
+                        <figcaption>Admin dashboard interface with data visualization and user management</figcaption>
+                    </figure>
+                </div>
+
+                <div class="gallery-item">
+                    <figure>
+                        <img src="../images/Blog-layout.webp" 
+                             alt="Blog layout design">
+                        <figcaption>Personal blog layout with clean typography and engaging content structure</figcaption>
+                    </figure>
+                </div>
+
+                <div class="gallery-item">
+                    <figure>
+                        <img src="../images/weather-app.png" 
+                             alt="Weather app interface">
+                        <figcaption>Weather application interface with intuitive data presentation</figcaption>
+                    </figure>
+                </div>
+
+                <div class="gallery-item">
+                    <figure>
+                        <img src="../images/task-manager.webp" 
+                             alt="Task manager interface">
+                        <figcaption>Task management application with drag-and-drop functionality</figcaption>
+                    </figure>
+                </div>
+
+                <div class="gallery-item">
+                    <figure>
+                        <img src="../images/calculator-interface.png" 
+                             alt="Calculator interface">
+                        <figcaption>Interactive calculator with modern button design and clear display</figcaption>
+                    </figure>
+                </div>
+
+                <div class="gallery-item">
+                    <figure>
+                        <img src="../images/recipe-app.jpg" 
+                             alt="Recipe app interface">
+                        <figcaption>Recipe collection application with filtering and search capabilities</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- Design Process Section -->
+        <section>
+            <h2>My Design Process</h2>
+            <p>Each design goes through a thoughtful process:</p>
+            <ol>
+                <li><strong>Research & Planning:</strong> Understanding user needs and project requirements</li>
+                <li><strong>Wireframing:</strong> Creating basic layouts and information architecture</li>
+                <li><strong>Prototyping:</strong> Building interactive mockups to test user flows</li>
+                <li><strong>Visual Design:</strong> Applying colors, typography, and visual hierarchy</li>
+                <li><strong>Development:</strong> Turning designs into functional web experiences</li>
+                <li><strong>Testing & Iteration:</strong> Refining based on user feedback and performance</li>
+            </ol>
+        </section>
+
+        <!-- Inspiration Section -->
+        <section>
+            <h2>Design Inspiration</h2>
+            <p>I draw inspiration from various sources:</p>
+            <ul>
+                <li>Modern web design trends and best practices</li>
+                <li>User experience research and accessibility guidelines</li>
+                <li>Nature and minimalist design principles</li>
+                <li>Open source projects and community contributions</li>
+                <li>Mobile-first and responsive design patterns</li>
+            </ul>
+
+        </section>
+
+        <!-- Tools Section -->
+        <section>
+            <h2>Design Tools</h2>
+            <p>I use a variety of tools to bring my designs to life:</p>
+            <div class="skills-list">
+                <span class="skill-tag">Figma</span>
+                <span class="skill-tag">Adobe XD</span>
+                <span class="skill-tag">Sketch</span>
+                <span class="skill-tag">Photoshop</span>
+                <span class="skill-tag">Illustrator</span>
+                <span class="skill-tag">InVision</span>
+                <span class="skill-tag">Principle</span>
+                <span class="skill-tag">HTML/CSS</span>
+            </div>
+        </section>
+    </main>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        ↑
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Yuki The Bunny. All rights reserved.</p>
+        <p>This portfolio was built with HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
